@@ -1,48 +1,38 @@
-*{
-    margin: 0;
-    padding: 0;
-    
-}
 .component {
     height: 727px;
     width: 794px;
-    margin-top: 100px;
-    margin-left: 600px;
-
-
 }
 
 .component .overlap {
-    border-radius: 10px;
-    height: 727px;
+    height: 817px;
+    left: -45px;
     position: relative;
+    top: -41px;
+    width: 884px;
 }
 
 .component .img {
     height: 16px;
-    left: 374px;
+    left: 419px;
     position: absolute;
-    top: 643px;
+    top: 684px;
     width: 16px;
 }
 
 .component .ic-twotone-radio {
     height: 24px;
-    left: 370px;
+    left: 415px;
     position: absolute;
-    top: 639px;
+    top: 680px;
     width: 24px;
 }
 
 .component .rectangle {
-    background-color: #10101e;
-    border-radius: 10px;
-    box-shadow: 0px 4px 45px #0000001f;
-    height: 727px;
+    height: 817px;
     left: 0;
     position: absolute;
     top: 0;
-    width: 794px;
+    width: 884px;
 }
 
 .component .div {
@@ -51,41 +41,40 @@
     border-color: #000000;
     border-radius: 10px;
     height: 45px;
-    left: 102px;
+    left: 147px;
     opacity: 0.5;
     position: absolute;
-    top: 447px;
+    top: 488px;
     width: 543px;
 }
 
-/* .component .group {
+.component .group {
     height: 22px;
-    left: 123px;
+    left: 168px;
     position: absolute;
-    top: 459px;
+    top: 500px;
     width: 225px;
-} */
+}
 
 .component .text-wrapper {
-    font-weight:bolder;
-    font-size: larger;
-    background-color: #ffffff;
-    border: 1px solid;
-    border-color: #000000;
-    border-radius: 10px;
-    height: 45px;
-    left: 102px;
+    color: #000000;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
     opacity: 0.5;
     position: absolute;
-    top: 447px;
-    width: 543px;
-} 
+    top: 0;
+    width: 223px;
+}
 
 .component .overlap-group-wrapper {
     height: 42px;
-    left: 81px;
+    left: 126px;
     position: absolute;
-    top: 34px;
+    top: 75px;
     width: 44px;
 }
 
@@ -116,35 +105,35 @@
     font-family: "Poppins-SemiBold", Helvetica;
     font-size: 20px;
     font-weight: 600;
-    left: 284px;
+    left: 329px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 42px;
+    top: 83px;
 }
 
 .component .line {
     height: 5px;
-    left: 81px;
+    left: 126px;
     position: absolute;
-    top: 179px;
+    top: 220px;
     width: 626px;
 }
 
 .component .line-2 {
     height: 5px;
-    left: 84px;
+    left: 129px;
     position: absolute;
-    top: 266px;
+    top: 307px;
     width: 626px;
 }
 
 .component .vector {
     height: 22px;
-    left: 81px;
+    left: 126px;
     position: absolute;
-    top: 119px;
+    top: 160px;
     width: 11px;
 }
 
@@ -153,11 +142,11 @@
     font-family: "Poppins-SemiBold", Helvetica;
     font-size: 26px;
     font-weight: 600;
-    left: 102px;
+    left: 147px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 295px;
+    top: 336px;
 }
 
 .component .p {
@@ -165,12 +154,12 @@
     font-family: "Poppins-Medium", Helvetica;
     font-size: 14px;
     font-weight: 500;
-    left: 102px;
+    left: 147px;
     letter-spacing: 0;
     line-height: 22px;
     opacity: 0.8;
     position: absolute;
-    top: 347px;
+    top: 388px;
     white-space: nowrap;
 }
 
@@ -179,11 +168,11 @@
     font-family: "Poppins-Medium", Helvetica;
     font-size: 14px;
     font-weight: 500;
-    left: 686px;
+    left: 731px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 123px;
+    top: 164px;
 }
 
 .component .text-wrapper-5 {
@@ -191,20 +180,19 @@
     font-family: "Poppins-SemiBold", Helvetica;
     font-size: 16px;
     font-weight: 600;
-    left: 112px;
+    left: 157px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 406px;
+    top: 447px;
 }
 
 .component .mask-group {
     height: 86px;
-    left: 102px;
+    left: 147px;
     position: absolute;
-    top: 131px;
+    top: 172px;
     width: 86px;
-    border-radius: 50%;
 }
 
 .component .welcome-XYZ {
@@ -212,26 +200,26 @@
     font-family: "Poppins-SemiBold", Helvetica;
     font-size: 14px;
     font-weight: 600;
-    left: 215px;
+    left: 260px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 162px;
+    top: 203px;
 }
 
 .component .akar-icons-check-box {
     height: 24px;
-    left: 103px;
+    left: 148px;
     position: absolute;
-    top: 575px;
+    top: 616px;
     width: 24px;
 }
 
 .component .bi-caret-down-fill {
     height: 16px;
-    left: 611px;
+    left: 656px;
     position: absolute;
-    top: 336px;
+    top: 377px;
     width: 16px;
 }
 
@@ -239,12 +227,10 @@
     background-color: #dbff00;
     border-radius: 100px;
     height: 45px;
-    left: 186px;
+    left: 231px;
     position: absolute;
-    top: 580px;
-    width: 380px;
-    font-size:large;
-    font-weight: bold;
+    top: 694px;
+    width: 392px;
 }
 
 .component .group-2 {
