@@ -1,6 +1,17 @@
+.main {
+    margin:0;
+    padding: 0;
+    background-color: #000000;
+    display: flex;
+}
+
 .component {
     height: 760px;
     width: 710px;
+    margin-top:80px;
+    margin-left: 600px;
+    margin-bottom: 200px;
+    display: flex;
 }
 
 
@@ -15,7 +26,6 @@
 .component .rectangle {
     height: 966px;
     left: 5px;
-    position: absolute;
     top: 0;
     width: 833px;
 }
@@ -140,6 +150,7 @@
     border: 1px solid;
     border-color: #000000;
     border-radius: 10px;
+    opacity: 1;
     height: 110px;
     margin-left: 69px;
     top: -20px;

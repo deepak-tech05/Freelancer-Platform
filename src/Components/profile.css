@@ -1,13 +1,15 @@
-
 .component {
     background-color: #10101e;
     border-radius: 10px;
     box-shadow: 0px 4px 45px #0000001f;
     height: 1031px;
-    position: relative;
     width: 794px;
-    margin-top: 70px;
-    margin-left: 600px;
+}
+
+.component .overlap {
+    border-radius: 10px;
+    height: 1031px;
+    position: relative;
 }
 
 .component .group {
@@ -43,9 +45,9 @@
 .component .div {
     color: #ffffff;
     font-family: "Poppins-SemiBold", Helvetica;
-    /* font-size: 20px; */
+    font-size: 32px;
     font-weight: 600;
-    left: 328px;
+    left: 286px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -53,30 +55,12 @@
     top: 38px;
 }
 
-.component .overlap {
-    /* background-image: url(./line-19.svg); */
-    background-size: 100% 100%;
-    height: 5px;
-    left: 81px;
-    position: absolute;
-    top: 175px;
-    width: 626px;
-}
-
 .component .line {
     height: 5px;
-    left: 0;
+    left: 82px;
     position: absolute;
-    top: 0;
+    top: 133px;
     width: 626px;
-}
-
-.component .vector {
-    height: 22px;
-    left: 81px;
-    position: absolute;
-    top: 115px;
-    width: 11px;
 }
 
 .component .text-wrapper-2 {
@@ -84,11 +68,11 @@
     font-family: "Poppins-SemiBold", Helvetica;
     font-size: 26px;
     font-weight: 600;
-    left: 81px;
+    left: 82px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 204px;
+    top: 162px;
 }
 
 .component .p {
@@ -96,12 +80,12 @@
     font-family: "Poppins-Medium", Helvetica;
     font-size: 14px;
     font-weight: 500;
-    left: 81px;
+    left: 82px;
     letter-spacing: 0;
     line-height: 22px;
     opacity: 0.8;
     position: absolute;
-    top: 254px;
+    top: 212px;
     white-space: nowrap;
 }
 
@@ -109,9 +93,9 @@
     background-color: #dbff00;
     border-radius: 100px;
     height: 45px;
-    left: 219px;
+    left: 220px;
     position: absolute;
-    top: 936px;
+    top: 894px;
     width: 365px;
 }
 
@@ -119,14 +103,14 @@
     height: 24px;
     left: 145px;
     position: relative;
-    top: 2px;
-    width: 80px;
+    top: 11px;
+    width: 77px;
 }
 
 .component .text-wrapper-3 {
     color: #000000;
     font-family: "Poppins-SemiBold", Helvetica;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 600;
     left: 0;
     letter-spacing: 0;
@@ -138,21 +122,21 @@
 
 .component .mask-group {
     height: 86px;
-    left: 328px;
+    left: 329px;
     position: absolute;
-    border-radius: 50%;
-    top: 317px;
+    top: 275px;
     width: 86px;
 }
 
-.component .upload-photo-wrapper {
+.component .rectangle {
     border: 1px solid;
-    border-color: #00000026;
+    border-color: #00000080;
     border-radius: 100px;
     height: 45px;
-    left: 256px;
+    left: 257px;
+    opacity: 0.3;
     position: absolute;
-    top: 426px;
+    top: 384px;
     width: 229px;
 }
 
@@ -161,18 +145,18 @@
     font-family: "Poppins-SemiBold", Helvetica;
     font-size: 14px;
     font-weight: 600;
-    left: 56px;
+    left: 314px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 12px;
+    top: 397px;
 }
 
 .component .group-2 {
-    height: 77px;
-    left: 407px;
+    height: 101px;
+    left: 408px;
     position: absolute;
-    top: 707px;
+    top: 665px;
     width: 308px;
 }
 
@@ -185,16 +169,15 @@
     width: 306px;
 }
 
-.component .rectangle {
+.component .rectangle-2 {
     background-color: #e6e0e0;
     border: 1px solid;
     border-color: #000000;
     border-radius: 10px;
     height: 45px;
     left: 0;
-    /* opacity: 0.3; */
+    opacity: 0.3;
     position: absolute;
-    font-size: x-large;
     top: 0;
     width: 306px;
 }
@@ -220,11 +203,11 @@
     top: 0;
 }
 
-.component .img {
+.component .vector {
     height: 7px;
-    left: 278px;
+    left: 277px;
     position: absolute;
-    top: 20px;
+    top: 94px;
     width: 12px;
 }
 
@@ -242,9 +225,9 @@
 
 .component .group-4 {
     height: 77px;
-    left: 81px;
+    left: 82px;
     position: absolute;
-    top: 707px;
+    top: 665px;
     width: 308px;
 }
 
@@ -256,11 +239,19 @@
     width: 119px;
 }
 
+.component .img {
+    height: 7px;
+    left: 278px;
+    position: absolute;
+    top: 20px;
+    width: 12px;
+}
+
 .component .group-6 {
     height: 77px;
-    left: 81px;
+    left: 82px;
     position: absolute;
-    top: 804px;
+    top: 762px;
     width: 308px;
 }
 
@@ -286,9 +277,9 @@
 
 .component .group-8 {
     height: 77px;
-    left: 81px;
+    left: 82px;
     position: absolute;
-    top: 513px;
+    top: 471px;
     width: 310px;
 }
 
@@ -330,9 +321,9 @@
 
 .component .group-9 {
     height: 77px;
-    left: 407px;
+    left: 408px;
     position: absolute;
-    top: 513px;
+    top: 471px;
     width: 310px;
 }
 
@@ -350,9 +341,9 @@
 
 .component .group-10 {
     height: 77px;
-    left: 81px;
+    left: 82px;
     position: absolute;
-    top: 610px;
+    top: 568px;
     width: 636px;
 }
 
@@ -365,17 +356,16 @@
     width: 632px;
 }
 
-.component .rectangle-2 {
+.component .rectangle-3 {
     background-color: #e6e0e0;
     border: 1px solid;
     border-color: #000000;
     border-radius: 10px;
     height: 45px;
     left: 0;
-    /* opacity: 0.3; */
+    opacity: 0.3;
     position: absolute;
     top: 0;
-    font-size: x-large;
     width: 632px;
 }
 
@@ -413,23 +403,11 @@
     font-weight: 600;
 }
 
-.component .text-wrapper-14 {
-    color: #2a1e17;
-    font-family: "Poppins-Medium", Helvetica;
-    font-size: 14px;
-    font-weight: 500;
-    left: 686px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 119px;
-}
-
 .component .group-11 {
     height: 77px;
-    left: 407px;
+    left: 408px;
     position: absolute;
-    top: 804px;
+    top: 762px;
     width: 312px;
 }
 
@@ -441,7 +419,7 @@
     width: 12px;
 }
 
-.component .text-wrapper-15 {
+.component .text-wrapper-14 {
     color: #040100;
     font-family: "Montserrat-SemiBold", Helvetica;
     font-size: 16px;
@@ -454,7 +432,7 @@
     top: 12px;
 }
 
-.component .text-wrapper-16 {
+.component .text-wrapper-15 {
     color: #040100;
     font-family: "Montserrat-SemiBold", Helvetica;
     font-size: 16px;
@@ -467,7 +445,7 @@
     top: 12px;
 }
 
-.component .rectangle-3 {
+.component .rectangle-4 {
     height: 22px;
     left: 8px;
     object-fit: cover;
@@ -485,7 +463,7 @@
     width: 1px;
 }
 
-.component .text-wrapper-17 {
+.component .text-wrapper-16 {
     color: #ffffff;
     font-family: "Poppins-SemiBold", Helvetica;
     font-size: 16px;
@@ -495,4 +473,15 @@
     line-height: normal;
     position: absolute;
     top: 0;
+}
+
+.component .rectangle-5 {
+    background-color: #10101e;
+    border-radius: 10px;
+    box-shadow: 0px 4px 45px #0000001f;
+    height: 1031px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 794px;
 }
