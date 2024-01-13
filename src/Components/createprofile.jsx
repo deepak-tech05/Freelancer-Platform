@@ -1,224 +1,110 @@
 import React from "react";
 import "./profile.css";
+import Dp from "./images/profile/ProfilePhoto.png";
+import Downvector from "./images/profile/Vector(16).png";
+import Flag from "./images/profile/flag.png";
+import Verticalline from "./images/profile/verticalline.png";
+import Horizontalline from "./images/profile/Line 20.png";
+import Left from "./images/profile/Vector(15).png";
 
 export const Createprofile = () => {
   return (
-    <div className="component">
-      <div className="overlap">
-        <div className="group">
+    <div className="main">
+      <div className="create-profile">
+        <div className="overlap-group-wrapper">
           <div className="overlap-group">
             <div className="text-wrapper">M</div>
           </div>
         </div>
-        <div className="div">Create profile</div>
-        <img className="line" alt="Line" src="line-36.svg" />
-        <img className="line" alt="Line" src="line-37.png" />
+        <div className="div">Create Profile</div>
+        <div className="overlap">
+          <img className="img" alt="Create profile" src={Horizontalline} />
+        </div>
+        <button>
+          <img className="img-2" alt="Create profile" src={Left} />
+        </button>
         <div className="text-wrapper-2">Add contact information.</div>
         <p className="p">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do
           eiusmod.
         </p>
-        <div className="group-wrapper">
-          <div className="div-wrapper">
+        <button className="group-wrapper">
+          <div className="group">
             <div className="text-wrapper-3">Continue</div>
           </div>
-        </div>
-        <img className="mask-group" alt="Mask group" src="mask-group.png" />
-        <div className="rectangle" />
-        <div className="upload-photo">+&nbsp;&nbsp;Upload photo</div>
-        <div className="group-2">
+        </button>
+        <img className="img-3" alt="Create profile" src={Dp} />
+        <a className="create-profile-wrapper">
+          <div className="text-wrapper-4">+&nbsp;&nbsp;Upload photo</div>
+        </a>
+        <div className="div-2">
           <div className="overlap-2">
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
+            <input className="rectangle"></input>
+            <div className="div-wrapper">
+              <div className="text-wrapper-5">eg,India</div>
+            </div>
+            <img className="vector" alt="Vector" src={Downvector} />
+          </div>
+          <div className="text-wrapper-6">Country*</div>
+        </div>
+        <div className="div-3">
+          <div className="overlap-2">
+            <input className="rectangle" />
+            <div className="group-2">
+              <div className="text-wrapper-5">eg- New Delhi</div>
+            </div>
+            <img className="vector" alt="Vector" src={Downvector} />
+          </div>
+          <div className="text-wrapper-6">City Name*</div>
+        </div>
+        <div className="div-4">
+          <div className="overlap-2">
+            <input className="rectangle" />
             <div className="group-3">
-              <div className="text-wrapper-4">eg,India</div>
+              <div className="text-wrapper-5">Enter code</div>
             </div>
           </div>
-          <img className="vector" alt="Vector" src="vector.png" />
-          <div className="text-wrapper-5">Country*</div>
+          <div className="text-wrapper-7">Zip code/ Pincode</div>
         </div>
-        <div className="group-4">
+        <div className="div-5">
           <div className="overlap-2">
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="group-5">
-              <div className="text-wrapper-4">eg- New Delhi</div>
-            </div>
-            <img className="img" alt="Vector" src="image.png" />
-          </div>
-          <div className="text-wrapper-5">City Name*</div>
-        </div>
-        <div className="group-6">
-          <div className="overlap-2">
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="group-7">
-              <div className="text-wrapper-4">Enter code</div>
-            </div>
-          </div>
-          <div className="text-wrapper-6">Zip code/ Pincode</div>
-        </div>
-        <div className="group-8">
-          <div className="overlap-2">
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="text-wrapper-7">Adam</div>
+            <input className="rectangle" />
+            <div className="text-wrapper-8">Adam</div>
           </div>
           <p className="first-name">
             <span className="span">First</span>
-            <span className="text-wrapper-8">&nbsp;</span>
-            <span className="text-wrapper-9">Name</span>
+            <span className="text-wrapper-9">&nbsp;</span>
+            <span className="text-wrapper-10">Name</span>
           </p>
         </div>
-        <div className="group-9">
+        <div className="div-6">
           <div className="overlap-2">
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="text-wrapper-10">Smith</div>
+            <input className="rectangle" />
+            <div className="text-wrapper-11">Smith</div>
           </div>
-          <div className="text-wrapper-6">Last Name</div>
+          <div className="text-wrapper-7">Last Name</div>
         </div>
-        <div className="group-10">
+        <div className="div-7">
           <div className="overlap-3">
-            <div className="rectangle-3" />
-            <div className="rectangle-3" />
-            <div className="rectangle-3" />
-            <div className="text-wrapper-11">Address</div>
+            <input className="rectangle-2" />
+            <div className="text-wrapper-12">Address</div>
           </div>
           <p className="address">
-            <span className="text-wrapper-12">Address</span>
-            <span className="text-wrapper-13">*</span>
+            <span className="text-wrapper-13">Address</span>
+            <span className="text-wrapper-14">*</span>
           </p>
         </div>
-        <div className="group-11">
+        <div className="text-wrapper-15">8/8</div>
+        <div className="div-8">
           <div className="overlap-2">
-            <img className="vector-2" alt="Vector" src="vector.svg" />
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="text-wrapper-14">989876363474</div>
-            <div className="text-wrapper-15">+61</div>
-            <img
-              className="rectangle-4"
-              alt="Rectangle"
-              src="rectangle-84.png"
-            />
-            <img className="line-2" alt="Line" src="line-29.png" />
+            <img className="vector-2" alt="Vector" src={Downvector} />
+            <input className="rectangle" />
+            <div className="text-wrapper-16">989876363474</div>
+            <div className="text-wrapper-17">+61</div>
+            <img className="rectangle-3" alt="Rectangle" src={Flag} />
+            <img className="line" alt="Line" src={Verticalline} />
           </div>
-          <div className="text-wrapper-16">Phone number</div>
-        </div>
-        <div className="rectangle-5" />
-        <div className="group">
-          <div className="overlap-group">
-            <div className="text-wrapper">M</div>
-          </div>
-        </div>
-        <div className="div">Create profile</div>
-        <img className="line" alt="Line" src="line-19.svg" />
-        <img className="line" alt="Line" src="line-20.svg" />
-        <div className="text-wrapper-2">Add contact information.</div>
-        <p className="p">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do
-          eiusmod.
-        </p>
-        <div className="group-wrapper">
-          <div className="div-wrapper">
-            <div className="text-wrapper-3">Continue</div>
-          </div>
-        </div>
-        <img className="mask-group" alt="Mask group" src="mask-group-2.png" />
-        <div className="rectangle" />
-        <div className="upload-photo">+&nbsp;&nbsp;Upload photo</div>
-        <div className="group-2">
-          <div className="overlap-2">
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="group-3">
-              <div className="text-wrapper-4">eg,India</div>
-            </div>
-          </div>
-          <img className="vector" alt="Vector" src="image.svg" />
-          <div className="text-wrapper-5">Country*</div>
-        </div>
-        <div className="group-4">
-          <div className="overlap-2">
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="group-5">
-              <div className="text-wrapper-4">eg- New Delhi</div>
-            </div>
-            <img className="img" alt="Vector" src="vector-2.svg" />
-          </div>
-          <div className="text-wrapper-5">City Name*</div>
-        </div>
-        <div className="group-6">
-          <div className="overlap-2">
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="group-7">
-              <div className="text-wrapper-4">Enter code</div>
-            </div>
-          </div>
-          <div className="text-wrapper-6">Zip code/ Pincode</div>
-        </div>
-        <div className="group-8">
-          <div className="overlap-2">
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="text-wrapper-7">Adam</div>
-          </div>
-          <p className="first-name">
-            <span className="span">First</span>
-            <span className="text-wrapper-8">&nbsp;</span>
-            <span className="text-wrapper-9">Name</span>
-          </p>
-        </div>
-        <div className="group-9">
-          <div className="overlap-2">
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="text-wrapper-10">Smith</div>
-          </div>
-          <div className="text-wrapper-6">Last Name</div>
-        </div>
-        <div className="group-10">
-          <div className="overlap-3">
-            <div className="rectangle-3" />
-            <div className="rectangle-3" />
-            <div className="rectangle-3" />
-            <div className="text-wrapper-11">Address</div>
-          </div>
-          <p className="address">
-            <span className="text-wrapper-12">Address</span>
-            <span className="text-wrapper-13">*</span>
-          </p>
-        </div>
-        <div className="group-11">
-          <div className="overlap-2">
-            <img className="vector-2" alt="Vector" src="vector-3.svg" />
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="rectangle-2" />
-            <div className="text-wrapper-14">989876363474</div>
-            <div className="text-wrapper-15">+61</div>
-            <img
-              className="rectangle-4"
-              alt="Rectangle"
-              src="rectangle-84-2.png"
-            />
-            <img className="line-2" alt="Line" src="line-29.svg" />
-          </div>
-          <div className="text-wrapper-16">Phone number</div>
+          <div className="text-wrapper-18">Phone number</div>
         </div>
       </div>
     </div>

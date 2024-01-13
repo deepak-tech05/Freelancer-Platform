@@ -6,7 +6,7 @@ import { Workexperience } from "./Components/workexperience.jsx";
 function App() {
   return (
     <div>
-      <Workexperience />
+      {/* <Workexperience /> */}
       {/* <Homepage /> */}
       {/* <Createprofile /> */}
       {/* <Walletinformation /> */}
