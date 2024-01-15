@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+
+.WorkExperience {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+
+
+
+.bk-arr{
+    position: absolute;
+    padding-right:15.85px;
+    padding-top: 16px;
+    padding-left: 37.4px;
+}
+
+.work-area {
+    background-image: url(./images/Rectangle-113.png);
+    background-position: center;
+    padding-top: 66px;
+    flex-direction: column;
+    border: 1px solid #000000;
+    width: 725.068px;
+    flex-shrink: 0;
+    overflow: hidden;
+    
+}
+.form-title {
+    position: relative;
+    padding-right: 162.98px;
+    padding-left: 62.93px;
+    padding-bottom: 23px;
+    color: #FFF;
+
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.line-work {
+    position: relative;
+    padding-top: 13px;
+    padding-left: 64.22px;
+    padding-right: 100.46px;
+    padding-bottom: 0px;
+}
+
+.form-group {
+    padding-left: 65.57px;
+    height: auto;
+}
+
+.form-label-1 {
+
+    color: #FFFEFD;
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 76px;
+    padding-bottom: 9px;
+}
+
+.form-input {
+
+    position: relative;
+    width: 560.785px;
+    height: 25px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #000;
+    opacity: 0.3;
+    background: #E6E0E0;
+}
+
+.form-label-2 {
+
+    color: #FFFEFD;
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 42px;
+    padding-bottom: 9px;
+}
+
+.form-label-3 {
+
+    color: #FFFEFD;
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 40.99px;
+    padding-bottom: 9px;
+}
+
+.form-label-3 .form-input {
+    width: 566.067px;
+    height: 109.964px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #000;
+    opacity: 0.3;
+    background: #E6E0E0;
+    padding-top: 13px;
+}
+
+.form-group .form-button {
+    width: 409.923px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 100px;
+background: #DBFF00;
+color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 84px;
+margin-bottom: 93px;
+margin-left: 15px;
+}
