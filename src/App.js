@@ -1,4 +1,4 @@
-import { Homepage } from "./Components/Homepage.jsx";
+import { Homepage } from "./Components/Homepage/Homepage.jsx";
 import { Workexperience } from "./Components/workexperience.jsx";
 import { Profile } from "./Components/Profile/createprofile.jsx";
 
@@ -7,7 +7,7 @@ function App() {
     <div>
       {/* <Workexperience /> */}
       {/* <Homepage /> */}
-      {/* <Profile /> */}
+      <Profile />
     </div>
   );
 }
